@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    #url: jdbc:sqlserver://192.168.0.109:62154;DatabaseName=ZHL_test
+    url: jdbc:sqlserver://192.168.43.173:62154;DatabaseName=ZHL_test
+    username: sa
+    password: z1h2l3
+
+mybatis:
+  mapperLocations: classpath*:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

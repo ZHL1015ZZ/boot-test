@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.boot.subdao.dao.DataDao">
+
+    <resultMap id="dataList" type="com.boot.subentity.pojo.DataModel">
+        <result property="phyId" column="PHY_ID"/>
+        <result property="num" column="num"/>
+    </resultMap>
+
+    <!--//根据项目名称 获取配置信息 -->
+    <select id="getData" resultMap="dataList">
+        select * from 测试表 where PHY_ID = #{condition}
+    </select>
+
+</mapper>

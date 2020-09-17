@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-dao/sub-dao.iml" filepath="$PROJECT_DIR$/sub-dao/sub-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-entity/sub-entity.iml" filepath="$PROJECT_DIR$/sub-entity/sub-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-service/sub-service.iml" filepath="$PROJECT_DIR$/sub-service/sub-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-web/sub-web.iml" filepath="$PROJECT_DIR$/sub-web/sub-web.iml" />
+    </modules>
+  </component>
+</project>

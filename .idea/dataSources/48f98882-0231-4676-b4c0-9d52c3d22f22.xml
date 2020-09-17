@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="jdbc:sqlserver://192.168.43.173:62154;DatabaseName=;database=ZHL_test">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>13.0.4001</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="DWDiagnostics">
+      <ObjectId>7</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="DWQueue">
+      <ObjectId>9</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="ReportServer$MSSQLSERVER2016">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_100_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="5" parent="1" name="ReportServer$MSSQLSERVER2016TempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_100_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="6" parent="1" name="ZHL_test">
+      <ObjectId>8</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="11" parent="6" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="12" parent="6" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="13" parent="6" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="14" parent="6" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="15" parent="6" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="16" parent="6" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="17" parent="6" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="18" parent="6" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="19" parent="6" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="20" parent="6" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="21" parent="6" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-09-07.18:46:12.020</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="22" parent="6" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="23" parent="6" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="24" parent="21" name="DHCC_LOG_RECORD_CONFIG">
+      <ObjectId>661577395</ObjectId>
+      <CreatedTimestamp>2020-07-25.16:20:21.940</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-25.16:24:28.843</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="21" name="业务系统操作日志">
+      <ObjectId>629577281</ObjectId>
+      <CreatedTimestamp>2020-07-23.16:45:02.090</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-23.23:49:33.250</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="21" name="测试表">
+      <ObjectId>581577110</ObjectId>
+      <CreatedTimestamp>2020-07-21.21:38:21.390</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-21.21:42:48.800</ModifiedTimestamp>
+    </table>
+    <column id="27" parent="24" name="PHY_ID">
+      <Position>1</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="28" parent="24" name="PROJECT_NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="29" parent="24" name="LOG_TYPE">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="30" parent="24" name="LOG_LEVEL">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="31" parent="24" name="LOG_RECORDER">
+      <Position>5</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="32" parent="24" name="IS_USING">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="33" parent="24" name="REMARKS">
+      <Position>7</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="34" parent="25" name="TRACE_ID">
+      <Position>1</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="35" parent="25" name="SPAN_ID">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="36" parent="25" name="PARENT_SPAN_ID">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="37" parent="25" name="USER_ID">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="38" parent="25" name="OPT_TYPE">
+      <Position>5</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="39" parent="25" name="DESCRIPTION">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="40" parent="25" name="URL">
+      <Position>7</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="41" parent="25" name="HTTP_METHOD">
+      <Position>8</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="42" parent="25" name="CLASS_METHOD">
+      <Position>9</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="43" parent="25" name="HTTP_IP">
+      <Position>10</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="44" parent="25" name="ARGS">
+      <Position>11</Position>
+      <DataType>nvarchar(4000 char)|0s</DataType>
+    </column>
+    <column id="45" parent="25" name="RESULT">
+      <Position>12</Position>
+      <DataType>nvarchar(4000 char)|0s</DataType>
+    </column>
+    <column id="46" parent="25" name="LOG_LEVEL">
+      <Position>13</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="47" parent="25" name="EXCEPTIONS">
+      <Position>14</Position>
+      <DataType>nvarchar(4000 char)|0s</DataType>
+    </column>
+    <column id="48" parent="25" name="USE_TIME">
+      <Position>15</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="49" parent="25" name="SYS_TIME">
+      <Position>16</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="50" parent="25" name="LOG_TYPE">
+      <Position>17</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="51" parent="26" name="PHY_ID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="26" name="num">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="53" parent="26" name="PK_测试表">
+      <Position>1</Position>
+      <ColNames>PHY_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="26" name="PK_测试表">
+      <ObjectId>597577167</ObjectId>
+      <CreatedTimestamp>2020-07-21.21:42:48.793</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-21.21:42:48.793</ModifiedTimestamp>
+      <ColNames>PHY_ID</ColNames>
+      <UnderlyingIndexName>PK_测试表</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
