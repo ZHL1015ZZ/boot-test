@@ -47,7 +47,7 @@ public class TestList {
         System.out.println("=======去重前后分界线=======");
         //打印过滤后的数据
         data.forEach(System.out::println);*/
-        int size = list.size()>2? 2]1:list.size();
+        int size = list.size()>2? 1:list.size();
         list.subList(0,size).forEach(System.out::println);
 
 
